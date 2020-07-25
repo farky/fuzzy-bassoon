@@ -29,6 +29,6 @@ public class AppProperties {
         properties = new Properties();
         properties.setProperty(PROP_OUTPUT_FILE_NAME_PATTERN, "out-%03d.txt");
         properties.setProperty(PROP_OUTPUT_DIRECTORY, "./chunks");
-        properties.setProperty(PROP_MAX_CHUNK_LENGTH, String.valueOf(5));
+        properties.setProperty(PROP_MAX_CHUNK_LENGTH, String.valueOf(50));
     }
 }
